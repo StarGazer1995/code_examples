@@ -1,0 +1,4 @@
+ARG VERSION
+FROM nvcr.io/nvidia/tensorrt:${VERSION}
+
+RUN apt update && apt install bazel
